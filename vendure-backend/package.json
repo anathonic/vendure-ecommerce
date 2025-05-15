@@ -12,15 +12,16 @@
     "start": "concurrently npm:start:*"
   },
   "dependencies": {
-    "@vendure/admin-ui-plugin": "3.2.3",
-    "@vendure/asset-server-plugin": "3.2.3",
-    "@vendure/core": "3.2.3",
-    "@vendure/email-plugin": "3.2.3",
+    "@vendure/admin-ui-plugin": "3.3.0",
+    "@vendure/asset-server-plugin": "3.3.0",
+    "@vendure/core": "3.3.0",
+    "@vendure/email-plugin": "3.3.0",
+    "@vendure/graphiql-plugin": "3.3.0",
     "dotenv": "16.5.0",
-    "pg": "8.15.6"
+    "pg": "8.16.0"
   },
   "devDependencies": {
-    "@vendure/cli": "3.2.3",
+    "@vendure/cli": "3.3.0",
     "concurrently": "9.1.2",
     "typescript": "5.8.2"
   }
